@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje notatki z kursu WTF - tydzień 3</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="tydzien_1.html">Tydzień 1</a>
+            <a href="tydzien_2.html">Tydzień 2</a>
+            <a href="tydzien_3.html">Tydzień 3</a>
+            <a href="tydzien_4.html">Tydzień 4</a>
+        </nav>
+    </header>
+    <main>
+        <header>
+            <h1>Moje notatki z kursu WTF - tydzień 3</h1>
+        </header>
+        <section>
+            <h2>Notatki</h2>
+            <article>
+                <h3>Lekcja 1 - Lekcja 03.01 Tydzień III + rozwiązania tydzień II</h3>
+                <p>
+                </p>
+            </article>
+            <article>
+                <h3>Lekcja 2 - Lekcja 03.02 Kanban</h3>
+                <p>Znam narzędzie i używam. W przypadku szkolenia WTF panel kursanta jest jakąś namiastką tablicy kanban (w zakresie obejrzanych materiałów video).</br> 
+                    Trochę mi szkoda czasu na przekopiowywanie tytułów lekcji do tablicy.</br> 
+                    Może zastsouję do zadań?</br>
+                </p>
+            </article>
+            <article>
+                <h3>Lekcja 3 - Lekcja 03.03 WTF: HTML II</h3>
+                <p>
+                    <span class="tag">&lt br &gt</span><br>
+                    znacznik nowej strony<br>
+                    znacznik samozamykający się<br>
+                </p>
+                <p>
+                    <span class="tag">&lt b &gt wyróżniany_tekst &lt /b &gt</span><br>
+                    <b>pogrubia</b> tekst<br>
+                    brak znaczenia sematycznego (wyróżnik wizualny)<br>
+                </p>
+                <p>
+                    <span class="tag">&lt strong &gt wyróżniany_tekst &lt /strong &gt</span><br>
+                    również <strong>pogrubia</strong> tekst<br>
+                    ale ma znaczenie semantyczne, podkreśla wysoką istotność i ważność frazy<br>
+                    wykorzystują to wyszukiwarki w czasie indeksowania strony<br>
+                </p>
+                <p> 
+                    <b>Pytanie na Slack'u</b><br>
+                    Adam Gruszczewski Apr 27th at 10:06 PM
+                    pytanie o znaczniki &lt b &gt / &lt strong &gt.
+                    wydaje mi się, że rozumiem różnicę.
+                    tylko z punktu widzenia "oglądacza" strony to różnicy nie ma. widzę to samo. może ma to znaczenie przy automatach czytających stronę?
+                    dlatego nasuwają mi się następujące pytania:<br>
+                    1. jak to w praktyce jest wykorzystywane?<br>
+                    2. jeżeli byśmy wzieli np. stronę sklepu, urzędu, trello gdzie powinno się zastosować znacznik &lt strong &gt zamiast  &lt b &gt?<br>
+                    18 replies<br>
+                    Maciek Korsan  6 days ago
+                    to tak jak z każdym innym znacznikiem, można ostylować je tak że dla “oglądacza” nie ma różnicy, różnica jest dla wyszukiwarki / czytników<br>
+                    Maciek Korsan  6 days ago
+                    dlatego mocno trzeba kłaść na to nacisk żeby używać semantycznych znaczników najpierw<br>
+                    Maciek Korsan  6 days ago
+                    a później zastanawiać się nad wyglądem<br>
+                    Maciek Korsan  6 days ago
+                    to co dostajemy jako pogrubiony tekst to efekt domyślnych stylów przeglądarki<br>
+                    Maciek Korsan  6 days ago
+                    jak wszystko zresetujesz, to każdy tekst może wyglądać tak samo i bez zapisu czystego htmla nie będziesz w stanie stwierdzić co jest co :slightly_smiling_face:<br>
+                    Adam Gruszczewski  6 days ago
+                    to zapytam od drugiej strony. skoro &lt b &gt jest "mniej wartościowy" to po co go utrzymywać? tylko dla zgodności?<br>
+                    Karol Ryska  6 days ago
+                    Może jest to kwestia kompatybilności wstecznej?<br>
+                    Adam Gruszczewski  6 days ago
+                    Tak też myślę. Ale mnogość bytów nie ułatwia życia.<br>
+                    Maciek Korsan  6 days ago
+                    no nie ułatwia<br>
+                    Maciek Korsan  6 days ago
+                    ale służy do wizualnego pogrubienia<br>
+                    Maciek Korsan  6 days ago
+                    i łatwo z niego korzystać jak mamy np edytor w którym user uzupełnia treść<br>
+                    Maciek Korsan  6 days ago
+                    i dostajemy później taki html<br>
+                    Mariusz Badyński  6 days ago
+                    Ale zatem nie korzystać z &lt b &gt, &lt i &gt?<br>
+                    Adam  6 days ago
+                    A ja zapytam inaczej - czy z doświadczenia jako developer zawsze używasz semantycznych &lt strong &gt i &lt em &gt czy jednak czasem rekomendujesz użycie &lt b &gt i &lt i &gt?<br>
+                    Maciek Korsan  6 days ago
+                    staram sie uzywac strong i em ale czasem wychodzi stara natura i leci b i i<br>
+                    Maciek Korsan  6 days ago
+                    wszystko zależy od konstekstu<br>
+                    Maciek Korsan  6 days ago
+                    czasem robię ten efekt span em po prostu<br>
+                    Maciek Korsan  6 days ago
+                    to co promuję od jakiegoś czasu i staram się trzymać to super semantyczny html<br>
+                </p>
+                <p>
+                    <span class="tag">&lt i &gt wyróżniany_tekst &lt /i &gt</span><br>
+                    kursywa, brak znaczenia sematycznego (wyróżnik wizualny)<br>
+                </p>
+                <p>
+                    <span class="tag">&lt em &gt wyróżniany_tekst &lt /em &gt</span><br>
+                    ma znaczenie semantyczne, podkreśla, że tekst może mieć inne znaczenie (np. ironia)<br>
+                </p>
+                <p>
+                    <span class="tag">&lt a href="" target="" &gt opis_łącza &lt /a &gt</span><br>
+                    jeżeli href="https://cotenfrontend.pl/" to utworzymy złęcze zewnętrzne<br>
+                    jeżeli href="#notatki" to utworzymy złęcze wewnętrzne (skok do tagu z id "notatki")<br>
+                </p> 
+                <p>
+                    <span class="tag">&lt nav &gt &lt /nav &gt</span><br>
+                    zawiera listę linków do podstron<br>
+                    znacznik umieszczamy w header poza main (header ten będzie powtarzalny; roboty indeksujące nie będą tego widziały)<br>
+                    dobrą praktyką jest, żeby menu anwigacyjne nie zmieniało sie przy przejściu pomiedzy stronami<br>
+                </p>
+                <p>
+                    <span class="tag">&lt img src="" alt="" &gt</span><br>
+                    src - zawiera url obrazka do wyświetlenia<br>
+                    alt - tekst alternatywny<br>
+                    znacznik samozamykający<br>
+                    <img src="indeks.png" alt="">
+                </p>
+                <p>
+                    atrybuty tag'ów są niewidzialne, schowane w znaczniku<br>
+                    nadają elementom dodatkowe własności (alt)<br>
+                    pozwalają na gruopowanie elementów (class)<br>
+                    pozwalają na identyfikowanie elementów (id)<br>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes">lista atrybutów</a>
+
+                </p>                                   
+            </article>
+            <article>
+                <h3>Lekcja 4 - Lekcja 03.04 Opowieść o wężu, kebabie, wielbłądzie i Pascalu</h3>
+                <p>
+                    nazwy w kodzie:<br>
+                    - bez polskich znaków<br>
+                    - bez spacji<br>
+                    - angielski<br>
+                    - pilnować schemtu<br>
+                    konwencje:<br>
+                    - camelCase (mySuperBoldHeader)<br>
+                    - kebab-case (my-super-bold-header)<br>
+                    - snake_case (my_super_bold_header)<br>
+                    - PascalCase (MySuperBoldHeader)<br>
+                </p>
+            </article>
+            <article>
+                <h3>Lekcja 5 - Lekcja 03.05 WTF: CSS II</h3>
+                <p>
+                    - atrybut style dla każdego elementu (znacznika); inline style<br>
+                    - można stylować po:<br>
+                    -- elementach (znacznikach)<br>
+                    -- klasach<br> 
+                    &lt znacznik <strong>class</strong>="class-name" &gt treść &lt/ znacznik &gt<br>
+                    odwołanke w css: <strong>.class-name</strong> {...}<br>
+                    . (kropka) - selektor klasy<br>
+                    nazwa klasy zapisana kebab-case<br>
+                    -- identyfikatorach<br>
+                    &lt znacznik <strong>id</strong>="id" &gt treść &lt/ znacznik &gt<br>
+                    odwołanke w css: <strong>#id<strong> {...}<br>
+                    # (hasz) - selektor klasy<br>
+                    id musi być unikalne na stronie <br>
+                    <br>
+                    - łączenie selektorów: nav a {...} - style zaaplikują się tylko do elementów a wystepujących w elemnecie nav <br>
+                    - !important - nadpisuje style; <strong>nie stosować!</strong><br>
+                    - specyficzność w css (15:20)<br>
+                    -- priorytety stylowania: | !important | style="" | #id-name | .class-name | element |<br>
+                    <img src="T3L5_specyf_css_1.PNG" alt="">
+                    <img src="T3L5_specyf_css_2.PNG" alt="">
+                    <img src="T3L5_specyf_css_3.PNG" alt=""><br>
+                    -- jeżeli specyficzność jest taka sama wygrywa ten styl, który jest bliżej elementu stylowanego<br>
+                    -- jeżeli w definicji stylu wpiszemy 2x ten sam atrybut to wygra ten, który jest bliżej elementu stylowanego<br>
+                </p>
+            </article>
+            <article>
+                <h3>Lekcja 6 - Lekcja 03.06 Jak działa Internet i przeglądarka</h3>
+                <p>
+                    
+                </p>
+            </article>
+            <article>
+                <h3>Lekcja 7 - Lekcja 03.07 WTF: JavaScript</h3>
+                <p>
+                    
+                </p>
+            </article>
+            <article>
+                <h3>Lekcja 8 - Lekcja 03.08 Terminal</h3>
+                <p>
+                    
+                </p>
+            </article>
+            <article>
+                <h3>Lekcja 9 - Lekcja 03.09 Prace domowe tydzień III</h3>
+                <p>
+                    
+                </p>
+            </article>                                                                                                
+        </section>
+    </main>
+    <footer>
+        Strona domowa moja.
+    </footer>           
+</body>
+</html>

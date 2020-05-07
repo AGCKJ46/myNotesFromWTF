@@ -1,0 +1,28 @@
+body {
+    background: #0d1f22;
+}
+
+h1 {
+    color: #264027;
+}
+
+h2 {
+    color: #3c5233;
+}
+
+h3 {
+    color: #6f732f;
+}
+
+h4 {
+    color: #707444;
+}
+
+p {
+    color: #b38a58;
+} 
+
+span.tag {
+    font-weight: bold;
+    color: #8a5413;
+} 
